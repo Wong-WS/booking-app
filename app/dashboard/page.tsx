@@ -55,9 +55,9 @@ export default async function DashboardPage() {
               <CardDescription>View and manage bookings</CardDescription>
             </CardHeader>
             <CardContent>
-              <Button className="w-full" variant="outline" disabled>
-                Coming Soon
-              </Button>
+              <Link href="/dashboard/appointments">
+                <Button className="w-full">View Appointments</Button>
+              </Link>
             </CardContent>
           </Card>
 

@@ -7,7 +7,8 @@
       "Bash(mkdir:*)",
       "Bash(tree:*)",
       "Bash(rm:*)",
-      "Bash(npx shadcn@latest add:*)"
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(npx supabase:*)"
     ],
     "deny": [],
     "ask": []

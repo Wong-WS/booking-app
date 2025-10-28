@@ -112,12 +112,11 @@ export default function SalonSetupPage() {
                       setFormData((prev) => ({ ...prev, slug: e.target.value }))
                     }
                     placeholder="stylish-cuts"
-                    pattern="[a-z0-9-]+"
                     required
                   />
                 </div>
                 <p className="text-xs text-gray-500">
-                  This will be your public booking page URL
+                  This will be your public booking page URL (lowercase letters, numbers, and hyphens only)
                 </p>
               </div>
 

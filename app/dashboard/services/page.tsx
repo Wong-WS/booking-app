@@ -171,7 +171,7 @@ export default function ServicesPage() {
                           onChange={(e) =>
                             setFormData((prev) => ({
                               ...prev,
-                              duration: parseInt(e.target.value),
+                              duration: parseInt(e.target.value) || 0,
                             }))
                           }
                           required
@@ -188,7 +188,7 @@ export default function ServicesPage() {
                           onChange={(e) =>
                             setFormData((prev) => ({
                               ...prev,
-                              price: parseFloat(e.target.value),
+                              price: parseFloat(e.target.value) || 0,
                             }))
                           }
                           required

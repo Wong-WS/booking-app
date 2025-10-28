@@ -67,21 +67,33 @@ export default async function DashboardPage() {
               <CardDescription>View your schedule</CardDescription>
             </CardHeader>
             <CardContent>
-              <Button className="w-full" variant="outline" disabled>
-                Coming Soon
-              </Button>
+              <Link href="/dashboard/calendar">
+                <Button className="w-full">View Calendar</Button>
+              </Link>
             </CardContent>
           </Card>
 
           <Card>
             <CardHeader>
               <CardTitle>Settings</CardTitle>
-              <CardDescription>Update salon information</CardDescription>
+              <CardDescription>Business hours and preferences</CardDescription>
             </CardHeader>
             <CardContent>
-              <Button className="w-full" variant="outline" disabled>
-                Coming Soon
-              </Button>
+              <Link href="/dashboard/settings">
+                <Button className="w-full">Manage Settings</Button>
+              </Link>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <CardTitle>Blocked Times</CardTitle>
+              <CardDescription>Manage unavailable periods</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <Link href="/dashboard/availability">
+                <Button className="w-full">Manage Blocks</Button>
+              </Link>
             </CardContent>
           </Card>
 
